@@ -26,3 +26,7 @@
     hsla(242, 74%, 61%, 0.8)
   ) !important;
 }
+li:hover {
+  @apply bg-pink-600;
+  border-radius: 10px;
+}

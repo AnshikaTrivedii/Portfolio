@@ -19,12 +19,15 @@ export const Home = () => {
             focused on building responsive full-stack applications.
           </p>
           <div>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-centre hover:bg-pink-600 hover:border-pink-600">
+            <a
+              href="#work"
+              className="w-[200px] text-white group border-2 px-6 py-3 my-2 flex items-centre hover:bg-pink-600 hover:border-pink-600"
+            >
               View Work
               <span className=" group hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>

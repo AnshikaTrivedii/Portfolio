@@ -9,14 +9,15 @@ import {
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+import "../index.css";
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-end items-center  px-4 bg-[#0a192f] text-gray-300">
-      <ul className=" hidden md:flex">
+    <div className="fixed w-full h-[80px] flex justify-end  items-center  px-4 bg-[#0a192f] text-gray-300">
+      <ul className=" hidden md:flex text-xl font-bold mr-10 p-5 mt-5">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
